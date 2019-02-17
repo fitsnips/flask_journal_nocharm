@@ -1,1 +1,2 @@
-FLASK_APP=microblog.py
+export FLASK_ENV=development
+FLASK_APP=microjournal.py
