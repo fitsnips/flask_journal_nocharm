@@ -1,2 +1,6 @@
 *.pyc
 *.pyo
+bin
+lib
+__pycache__
+
