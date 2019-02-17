@@ -1,0 +1,14 @@
+<html>	
+    <head>
+    	{% if title %}
+    	<title>{{ title }} - Microjournal</title>
+    	{% else %}
+    	<title>Welcome to Mirojournal</title>
+    	{% endif %}
+    </head>
+    <body>
+        <div>Microjournal: <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
